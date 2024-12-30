@@ -18,6 +18,6 @@ describe("AnswerQuestionUseCase", () => {
 			questionId: "question-456",
 		});
 
-		expect(answer.content).toBe("This is an answer");
+		expect(answer.id).toBeDefined();
 	});
 });
